@@ -1,0 +1,32 @@
+headersOrigin = "config"
+plugins = []
+redirects = []
+
+[functions]
+
+  [functions."*"]
+
+[build]
+publish = "/opt/build/repo"
+publishOrigin = "config"
+
+  [build.environment]
+
+  [build.processing]
+
+    [build.processing.css]
+
+    [build.processing.html]
+
+    [build.processing.images]
+
+    [build.processing.js]
+
+  [build.services]
+
+[[headers]]
+for = "/*"
+
+  [headers.values]
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "strict-origin-when-cross-origin"
