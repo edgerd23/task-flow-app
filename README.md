@@ -163,8 +163,9 @@ For development, you can also use VS Code + Live Server. ⚡
 
 ```
 taskflow/
-├── index.html   # markup + all styles
-├── app.js       # store, task service, analytics, UI controller
+├── Task-Flow/
+        ├── index.html   # markup + all styles
+        ├── app.js       # store, task service, analytics, UI controller
 ├── netlify.toml # static publish config
 └── README.md
 ```
